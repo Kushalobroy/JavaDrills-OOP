@@ -1,4 +1,4 @@
-package BookDetails;
+package Q6;
 
 import java.util.ArrayList;
 
