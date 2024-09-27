@@ -1,4 +1,5 @@
 import java.util.*;
+
 class Course{
     private int courseId;
     private String courseName;
