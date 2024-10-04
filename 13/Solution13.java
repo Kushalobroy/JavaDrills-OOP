@@ -22,7 +22,7 @@ class Institution
     public String getInstitutionName(){return institutionName;}
     public String getGrade(){return grade;}
 }
-public class Solution
+public class Solution13
 {
 
 public static void main(String[] args)

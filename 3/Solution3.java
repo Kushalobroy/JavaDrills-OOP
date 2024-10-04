@@ -18,7 +18,7 @@ class Course{
     public int getQuiz(){return quiz;}
     public String getCourseName() {return courseName;}
 }
-public class Solution {
+public class Solution3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Course[] courses = new Course[4];

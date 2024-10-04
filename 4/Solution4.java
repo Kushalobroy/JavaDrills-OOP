@@ -19,7 +19,7 @@ class NavalVessel{
     public String getPurpose(){return purpose;}
     public String getVesselName(){return vesselName;}
 }
-public class Solution {
+public class Solution4 {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         NavalVessel[] navalVessels = new NavalVessel[4];

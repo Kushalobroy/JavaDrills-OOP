@@ -18,7 +18,7 @@ class Employee{
     public String getName(){return name;}
     public double getRating(){return rating;}
 }
-public class Solution {
+public class Solution12 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Employee[] employees = new Employee[4];

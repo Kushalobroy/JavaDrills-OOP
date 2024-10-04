@@ -16,7 +16,7 @@ class Phone{
     public int getPhoneId(){return phoneId;}
     public String getOs(){return os;}
 }
-public class Solution {
+public class Solution5 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Phone[] phones = new Phone[4];

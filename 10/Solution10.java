@@ -13,7 +13,7 @@ class Medicine{
     public int getPrice(){return price;}
     public String getDisease(){return disease;}
 }
-public class Solution {
+public class Solution10 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Medicine[] medicines = new Medicine[4];

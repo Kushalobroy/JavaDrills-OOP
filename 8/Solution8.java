@@ -14,7 +14,7 @@ class Movie{
     public int getBudget(){return budget;}
     public String getGenre(){return genre;}
 }
-public class Solution {
+public class Solution8 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Movie[] movies = new Movie[4];

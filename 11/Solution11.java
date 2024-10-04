@@ -15,7 +15,7 @@ class Player{
     public int getPlayerId(){return playerId;}
     public String getLevel(){return level;}
 }
-public class Solution{
+public class Solution11{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Player[] players = new Player[4];

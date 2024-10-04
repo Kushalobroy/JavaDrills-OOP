@@ -18,7 +18,7 @@ class Footwear {
     public int getPrice(){ return price; }
 }
 
-public class Solution {
+public class Solution14 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Footwear[] footwears = new Footwear[4];
