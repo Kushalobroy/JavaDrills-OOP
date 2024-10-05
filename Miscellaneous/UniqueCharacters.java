@@ -24,6 +24,7 @@ public class UniqueCharacters {
                 sb.append(c);
             }
         }
+        sc.close();
         System.out.println(sb.toString());
     }
 }
