@@ -48,6 +48,7 @@ public class Solution12 {
         else{
             System.out.println("All Employees using company transport");
         }
+        sc.close();
     }
     public static Employee[] findEmployeeWithSecondHighestRating(Employee[] employees){
         Employee[] fl = Arrays.stream(employees).filter(e -> e.getCompanyTransport() == false).toArray(Employee[]::new);
@@ -65,6 +66,7 @@ public class Solution12 {
         Employee[] filteredEmployees = Arrays.stream(employees).filter(e ->e.getBranch().equalsIgnoreCase(branch) && e.getCompanyTransport()==true).toArray(Employee[]::new);
         for(Employee e:filteredEmployees){
             count++;
+            e.getBranch();
         }
         return count;
     }
