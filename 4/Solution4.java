@@ -18,6 +18,7 @@ class NavalVessel{
     public int getNoOfVoyagesCompleted(){return noOfVoyagesCompleted;}
     public String getPurpose(){return purpose;}
     public String getVesselName(){return vesselName;}
+    public int getId(){return vesselId;}
 }
 public class Solution4 {
     public static void main(String[] args){
@@ -55,7 +56,7 @@ public class Solution4 {
             if(p<55 ) System.out.println(n.getVesselName()+"%"+"Striver");
         }
         else System.out.println("No Naval Vessel is available with the specified purpose");
-
+sc.close();
     }  
     
     public static NavalVessel[] findVesselByGrade(NavalVessel[] navalVessels, String ps){

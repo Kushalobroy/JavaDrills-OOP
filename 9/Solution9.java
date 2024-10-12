@@ -24,6 +24,7 @@ public class Solution9 {
         if(autonomousCars2 != null){
             for(AutonomousCar c:autonomousCars2) System.out.println(c.getBrand()+"::"+c.getGrade());
         }else System.out.println("No Car is available with the specified brand");
+        sc.close();
     }
     public static AutonomousCar[] updateCarGrade(AutonomousCar[] autonomousCars, String brand){
         AutonomousCar[] filteredAutonomousCars = Arrays.stream(autonomousCars).filter(c -> c.getBrand().equalsIgnoreCase(brand)).toArray(AutonomousCar[]::new);
@@ -62,6 +63,7 @@ class AutonomousCar{
         this.noOfTestsPassed = noOfTestsPassed;
         this.environment = environment;
     }
+    public int getId(){return carId;}
     public String getEnvironment(){return environment;}
     public String getBrand(){return brand;}
     public int getNoOfTestsPassed(){return noOfTestsPassed;}

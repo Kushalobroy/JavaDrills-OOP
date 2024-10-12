@@ -39,6 +39,7 @@ public class Solution5 {
             for(Phone p:phones2) System.out.println(p.getPhoneId());
         }
         else System.out.println("No phones are available with specified os and price range");
+        sc.close();
     }
     public static Phone[] getPhoneIdBasedOnOs(Phone[] phones, String os){
         Phone[] filteredPhones = Arrays.stream(phones).filter(p -> p.getOs().equalsIgnoreCase(os) && p.getPrice()>=50000).toArray(Phone[]::new);

@@ -9,6 +9,8 @@ class Account{
         this.interestRate = interestRate;
     }
     public double getInterestRate(){return interestRate;}
+    public int getId(){return id;}
+    public double getBalance(){return balance;}
 }
 public class Solution33 {
     public static void main(String[] args) {

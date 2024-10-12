@@ -38,6 +38,7 @@ public class Solution31 {
                 System.out.println(sim2.getId());
             }
         }
+        sc.close();
     }
     public static Sim2[] matchAndSort(Sim2[] s, String circle, double rate){
         Sim2[] fS = Arrays.stream(s).filter(a -> a.getCircle().equalsIgnoreCase(circle) && a.getRatePerSecond() < rate).toArray(Sim2[]::new);

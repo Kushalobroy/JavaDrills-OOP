@@ -21,6 +21,7 @@ class Institution
     public int getNoOfStudentsPlaced(){return noOfStudentsPlaced;}
     public String getInstitutionName(){return institutionName;}
     public String getGrade(){return grade;}
+    public int getId(){return institutionId;}
 }
 public class Solution13
 {

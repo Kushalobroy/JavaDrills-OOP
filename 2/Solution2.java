@@ -19,7 +19,7 @@ class Employee{
     public String getDesignation() {return designation;}
     public void setDesignation(String designation) {this.designation = designation;}
     public double getSalary(){return salary;}
-    public void setSalary(){this.salary = salary;}
+    public void setSalary(double salary){this.salary = salary;}
 }
 class Company{
     private String companyName;
@@ -30,6 +30,9 @@ class Company{
         this.employees = employees;
         this.numEmployees = numEmployees;
     }
+    public String getCompanyName(){return companyName;}
+    public int getNumEmployees(){return numEmployees;}
+    public Employee[] getEmployees(){return employees;}
     public double getAverageSalary(Employee[] e){
         
         double sum=0;
@@ -100,5 +103,6 @@ public class Solution2 {
                 System.out.println("ID: "+ans[i].getId()+", Name: "+ans[i].getName()+", Designation: "+ans[i].getDesignation()+", Salary: "+ans[i].getSalary());
             }
         }
+        sc.close();
     }
 }

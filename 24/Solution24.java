@@ -12,6 +12,8 @@ class Flowers{
         this.rating = rating;
         this.type = type;
     }
+    public String getName(){return flowerName;}
+    public int getRating(){return rating;}
     public String getType(){return type;}
     public int getPrice(){return price;}
     public int getFlowerId(){return flowerId;}

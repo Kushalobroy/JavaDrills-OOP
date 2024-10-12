@@ -9,6 +9,7 @@ public class LargeAndSmallNumber {
             System.out.println("Enter integer "+i+" :");
             arr[i] = sc.nextInt();
         }
+        sc.close();
         Arrays.sort(arr);
         System.out.println("Smallest Integer :" +arr[0]);
         System.out.println("Largest Integer: "+arr[n-1]);

@@ -12,6 +12,9 @@ class Player2{
         this.machesPlayed = machesPlayed;
         this.runsScored = runsScored;
     }
+    public int getId(){return id;}
+    public String getName(){return name;}
+    public int getIccRank(){return iccRank;}
     public int getScoredRun(){return runsScored;}
     public int getMachesPlayed(){return machesPlayed;}
 }

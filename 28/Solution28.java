@@ -10,6 +10,8 @@ class Inventory{
         this.currentQuantity = currentQuantity;
         this.threshold = threshold;
     }
+    public int getMaximumQuantity(){return maximumQuantity;}
+    public int getCurrentQuantity(){return currentQuantity;}
     public int getThreshold(){return threshold;}
     public String getInventoryId(){return inventoryId;}
 }

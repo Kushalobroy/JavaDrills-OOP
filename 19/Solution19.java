@@ -17,6 +17,7 @@ class Sim{
     public double getRatePerSecond(){return ratePerSecond;}
     public int getSimId(){return simId;}
     public String getCustomerName(){return customerName;}
+    public double getBalance(){return balance;}
 }
 public class Solution19 {
     public static void main(String[] args) {

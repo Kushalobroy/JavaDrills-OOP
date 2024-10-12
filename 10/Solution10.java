@@ -12,6 +12,8 @@ class Medicine{
     }
     public int getPrice(){return price;}
     public String getDisease(){return disease;}
+    public String getName(){return MedicineName;}
+    public String getBatch(){return batch;}
 }
 public class Solution10 {
     public static void main(String[] args) {
@@ -30,6 +32,7 @@ public class Solution10 {
         for(Medicine m:medicines2){
             System.out.println(m.getPrice());
         }
+        sc.close();
     }
     public static Medicine[] getPriceByDisease(Medicine[] medicines, String disease){
         Medicine[] filteredMedicines = Arrays.stream(medicines).filter(m -> m.getDisease().equalsIgnoreCase(disease)).toArray(Medicine[]::new);

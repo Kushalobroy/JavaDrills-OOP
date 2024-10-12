@@ -14,8 +14,12 @@ class Motel{
         this.cabFacility = cabFacility;
         this.totalBil = totalBil;
     }
+    public int getId(){return motelId;}
+    public String getName(){return motelName;}
+    public String getDateOfBooking(){return dateOfBooking;}
     public String getCabFacility(){return cabFacility;}
     public int getNoOfRoomsBooked(){return noOfRoomsBooked;}
+    public double getTotalBill(){return totalBil;}
 }
 public class Solution17{
     public static void main(String[] args) {

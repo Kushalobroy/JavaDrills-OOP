@@ -17,6 +17,7 @@ class Course{
     public String getCourseAdmin(){return courseAdmin;}
     public int getQuiz(){return quiz;}
     public String getCourseName() {return courseName;}
+    public int getId(){return courseId;}
 }
 public class Solution3 {
     public static void main(String[] args) {
@@ -45,6 +46,7 @@ public class Solution3 {
             }
         }
         else System.out.println("No Courses found with mentioned attribute.");
+        sc.close();
     }
     public static Course[] sortCourseByHandsOn(Course[] courses, int handson){
         Course[] filterCourses = Arrays.stream(courses).filter(c -> c.getHandson() < handson).toArray(Course[]::new);

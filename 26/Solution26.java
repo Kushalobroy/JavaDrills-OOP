@@ -10,6 +10,7 @@ class Fruits{
         this.price = price;
         this.rating = rating;
     }
+    public String getName(){return fruitName;}
     int getPrice(){return price;}
     int getRating(){return rating;}
     int getFruitId(){return fruitId;}

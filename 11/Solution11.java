@@ -40,6 +40,7 @@ public class Solution11{
             for(Player p:pl) System.out.println(p.getPlayerId());
         } 
         else System.out.println("No player is availabel with specified level, skill and eligibility points");
+        sc.close();
     }
     public static Player[] getPlayerBasedOnLevel(Player[] players, String skill, String level){
         Player[] filteredPlayers = Arrays.stream(players).filter(p ->p.getLevel().equalsIgnoreCase(level) && p.getSkill().equalsIgnoreCase(skill) && p.getPoints()>=20).toArray(Player[]::new);

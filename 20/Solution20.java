@@ -14,6 +14,7 @@ class Hotel{
         this.wifiFacility = wifiFacility;
         this.totalBill = totalBill;
     }
+    public String getName(){return hotelName;}
     public String getDate(){return dateOfBooking;}
     public int getNoOfRoomsBooked(){return noOfRoomsBooked;}
     public int getHotelId(){return hotelId;}

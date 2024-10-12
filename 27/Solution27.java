@@ -12,7 +12,9 @@ class Associate {
         this.technology = technology;
         this.experienceInYears = experienceInYears;
     }
-
+    public String getName(){
+        return name;
+    }
     public int getId() {
         return id;
     }

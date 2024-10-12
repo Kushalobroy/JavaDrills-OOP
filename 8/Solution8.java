@@ -5,7 +5,7 @@ class Movie{
     private String genre;
     private int budget;
 
-    public Movie(String movieName, String comapany, String genre, int budget){
+    public Movie(String movieName, String company, String genre, int budget){
         this.movieName = movieName;
         this.company = company;
         this.genre = genre;
@@ -13,6 +13,8 @@ class Movie{
     }
     public int getBudget(){return budget;}
     public String getGenre(){return genre;}
+    public String getName(){return movieName;}
+    public String getCompany(){return company;}
 }
 public class Solution8 {
     public static void main(String[] args) {
@@ -34,6 +36,7 @@ public class Solution8 {
                 else System.out.println("Low Budget Movie");
             }
         }
+        sc.close();
     }
     public static Movie[] getMovieByGenre(Movie[] movies, String genre){
         Movie[] filteredMovies = Arrays.stream(movies).filter(m -> m.getGenre().equalsIgnoreCase(genre)).toArray(Movie[]::new);
